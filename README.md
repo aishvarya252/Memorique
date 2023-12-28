@@ -1,1 +1,1 @@
-# MindMatch-Mania
+# Memorique
