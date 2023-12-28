@@ -1,6 +1,3 @@
-body {
-    font-family: 'Arial', sans-serif;
-}
 .game-board {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -23,8 +20,4 @@ body {
     background-color: #8bc34a; /* Use a pleasant green color for matched cards */
     border: 2px solid #4caf50; /* Darker green border for matched cards */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
-}
-/* Apply a nice font for better readability */
-.card:hover {
-    background-color: #e0e0e0; /* Slightly change color on hover */
 }
