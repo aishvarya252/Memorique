@@ -1,4 +1,7 @@
-/*.game-board {
+body {
+    font-family: 'Arial', sans-serif;
+}
+.game-board {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -17,52 +20,11 @@
     border: 1px solid #000;
 }
 .matched {
-    background-color: lightgreen;
-}*/
-/* Apply a nice font for better readability */
-body {
-    font-family: 'Arial', sans-serif;
-}
-
-/* Improve overall layout and spacing */
-.game-board {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px; /* Increase gap for better readability */
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-/* Improve card style for better visibility and aesthetics */
-.card {
-    width: 100px;
-    height: 100px;
-    background-color: #f0f0f0; /* Lighter background color */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 20px; /* Slightly reduce font size for better fit */
-    border: 2px solid #333; /* Thicker border for better visibility */
-    border-radius: 5px; /* Add rounded corners */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
-}
-
-/* Improve matched card style for better feedback */
-.matched {
     background-color: #8bc34a; /* Use a pleasant green color for matched cards */
     border: 2px solid #4caf50; /* Darker green border for matched cards */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
 }
-
-/* Add hover effect for better interactive feedback */
+/* Apply a nice font for better readability */
 .card:hover {
     background-color: #e0e0e0; /* Slightly change color on hover */
 }
-
-/* Improve overall page background color for better contrast */
-body {
-    background-color: #f5f5f5;
-}
-
-
